@@ -37,4 +37,5 @@ interface=gr.Interface(
     inputs=gr.Textbox(lines=4,placeholder="Enter your Prompt"),
     outputs="text"
 )
+
 interface.launch()
